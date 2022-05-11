@@ -1,0 +1,16 @@
+{
+"user1":{
+  "email": "ahsanghouri39@yahoo.com",
+  "password": "12345678"
+},
+
+"user2":{
+  "email": "ahsanghouri234@yahoo.com",
+  "password": "12345678"
+},
+"user3":{
+  "email": "ahsanghouri235@yahoo.com",
+  "password": "12345678"
+}
+
+}
