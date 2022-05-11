@@ -36,7 +36,7 @@ it('Create an account into site', ()=> {
 it('Creating script to failed login', ()=>{
     //visit the automation practice site
     cy.visit('http://automationpractice.com/index.php')
-    //clicking on sign in button
+    //clicking on sign in buttons
     cy.contains('Sign in').click()
     cy.wait(2000)
     cy.get('.page-subheading').contains('Already registered?').should('have.text', 'Already registered?')

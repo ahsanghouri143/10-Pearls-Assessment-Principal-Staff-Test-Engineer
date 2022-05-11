@@ -1,15 +1,15 @@
 /// <reference types = "cypress" />
 describe('My DD suite', ()=>{
+//data={};
 
-
-    before(function(){
+beforeEach(function(){
         cy.fixture('example').then(function(data){
 
             this.data=data
         })
     })
 
-    it('FixtureLogin1', ()=>{
+    it('FixtureLogin1', function(){
 
     //visit the automation practice site
     cy.visit('http://automationpractice.com/index.php')
@@ -23,7 +23,7 @@ describe('My DD suite', ()=>{
         
     })
 
-    it('FixtureLogin2', ()=> {
+    it('FixtureLogin2', function() {
          //visit the automation practice site
     cy.visit('http://automationpractice.com/index.php')
     //clicking on sign in button
@@ -36,7 +36,7 @@ describe('My DD suite', ()=>{
         
     })
 
-    it('FixtureLogin3', ()=> {
+    it('FixtureLogin3', function() {
         //visit the automation practice site
    cy.visit('http://automationpractice.com/index.php')
    //clicking on sign in button
